@@ -13,5 +13,5 @@ int main(int argc, char* argv[]){
 	MainController mainc(severAdrr, severPort, myAdrr, myPort, stoi(playerID));
 	mainc.regist();
 	mainc.runner();
-	//return 0;
+	return 0;
 }
